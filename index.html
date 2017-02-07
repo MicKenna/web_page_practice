@@ -7,18 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
         
         <!--link to styles-->
+        <link rel="stylesheet" type='text/css' href="css/framework.css">
         <link rel="stylesheet" type='text/css' href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Lato;300,400" rel="stylesheet">
         <title>Boiler Plate</title>
         
     </head> 
         <body>
-           <div id="container">
-
-                <header  id="header">
+         <div class='row'>
+            <div class='col-12 border'>
+             <header  id="header">
                     <h1>Web Ninja</h1> 
                 </header>
-                <nav id="nav">
+             </div>
+            
+            </div>
+        <div class='row'>
+            <div class='col-12 border'>
+             <nav id="nav">
                     <ul class="button-wrap">
                         <button> Schedule</button>
                         <button> CSS</button>
@@ -26,10 +32,13 @@
                         <button>Responsive Design</button>
                     </ul>
                 </nav>
+             </div>
+            
+            </div>
         
             
-            <div id="middle wrapper">
-                <div id="middle-wraper-width">
+            <div class='row'>
+                <div class='col-8'>
                     <div id='main-content-wrapper'>
                         <div class='side-by-side'>
                             <section class="image-content">
@@ -58,6 +67,7 @@
                     
                     </div>
 <!--end of main-content-wrapper-->
+                <div class='col-4'> 
                 <div id="aside-content-wrapper">
                     <aside id='aside-right'>
                     <h3>Latest work</h3>
@@ -72,6 +82,7 @@
                         </ul>
                     </aside>
                 </div>
+            </div> 
 <!--end of aside-content-wrapper-->
                     
                 </div>
@@ -89,8 +100,7 @@
             </div>
 <!--end of Container-->
   <footer><h1>Footy</h1></footer>   
-   
-    </div> 
+    
             
     <script src="js/main.js"></script>
      </body>
