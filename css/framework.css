@@ -15,9 +15,12 @@ White: #FFFFFF
 .border {
     border: 1px solid #EDBA18 !important;
 }
-
+.image-content > img {
+    max-width: 200px
+}
 .row {
     width: 100%;
+    display:flex;
 }
 
 .col-1 {
@@ -54,4 +57,10 @@ White: #FFFFFF
 }
 .col-12 {
     width 100%;
+}
+
+@media (max-width; 767px) {
+    .row {
+        flex-wrap: wrap;
+    }
 }
